@@ -1,0 +1,13 @@
+{
+  "android": {
+    "package": "com.pesilsa.pocconsultacnpjmobile"
+  },
+  "ios": {
+    "bundleIdentifier": "com.pesilsa.pocconsultacnpjmobile"
+  },
+  "extra": {
+    "eas": {
+      "projectId": "5d3063b3-bab3-4381-bb33-9fd4bce64318"
+    }
+  }
+}
