@@ -87,7 +87,7 @@ app.get("/api/empresas/cnpj/:cnpj", async (req, res) => {
 
   /**
    * 3. Tenta salvar no Redis
-   */
+   */x
   try {
     await conectarRedis();
 
@@ -95,7 +95,7 @@ app.get("/api/empresas/cnpj/:cnpj", async (req, res) => {
       cacheKey,
       JSON.stringify(empresa),
       {
-        EX: 60 * 60,
+        EX: 86400,
       }
     );
 
