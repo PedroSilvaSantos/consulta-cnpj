@@ -3,7 +3,8 @@
     "package": "com.pesilsa.pocconsultacnpjmobile"
   },
   "ios": {
-    "bundleIdentifier": "com.pesilsa.pocconsultacnpjmobile"
+    "bundleIdentifier": "com.pesilsa.pocconsultacnpjmobile",
+    "appleTeamId": "L6S62UN9V8"
   },
   "extra": {
     "eas": {

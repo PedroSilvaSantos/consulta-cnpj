@@ -14,8 +14,7 @@ import {
 
 import * as Clipboard from "expo-clipboard";
 
-const API_URL =
-  "https://6a9e0c53257afb0ea8032f11--willowy-cheesecake-7a3640.netlify.app";
+const API_URL = process.env.EXPO_PRODUCAO_API_URL;
 
 type Empresa = {
   cnpj?: string;
