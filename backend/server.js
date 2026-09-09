@@ -87,7 +87,7 @@ app.get("/api/empresas/cnpj/:cnpj", async (req, res) => {
 
   /**
    * 3. Tenta salvar no Redis
-   */x
+   */
   try {
     await conectarRedis();
 
