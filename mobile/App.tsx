@@ -14,7 +14,7 @@ import {
 
 import * as Clipboard from "expo-clipboard";
 
-const API_URL = process.env.EXPO_PRODUCAO_API_URL;
+const API_URL = process.env.EXPO_PUBLIC_API_URL;
 
 type Empresa = {
   cnpj?: string;
